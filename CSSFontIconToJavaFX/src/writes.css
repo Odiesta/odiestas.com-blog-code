@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'LigatureSymbols';
+    src: url('LigatureSymbols-2.11.ttf');
+}
+
+.root {
+    -fx-background-color: #F5C59C;
+    -fx-padding: 20px;
+}
+
+.file {
+    -fx-write: FILE;
+}
+
+.print {
+    -fx-write: PRINT;
+}
+
+.write-icon {
+    -fx-graphic-text-gap: 30;
+    -fx-padding: 10;
+}

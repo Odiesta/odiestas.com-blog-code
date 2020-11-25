@@ -1,0 +1,7 @@
+<?import javafx.scene.layout.VBox?>
+<?import sample.WriteIcon?>
+<VBox fx:controller="sample.Controller"
+      xmlns:fx="http://javafx.com/fxml" alignment="center" spacing="10" stylesheets="@/writes.css">
+    <WriteIcon styleClass="file" />
+    <WriteIcon styleClass="print" />
+</VBox>
